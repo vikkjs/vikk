@@ -1,0 +1,2 @@
+# vikk
+Nonreactive JS library

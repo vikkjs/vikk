@@ -1,0 +1,25 @@
+{
+    "name": "vikk",
+    "version": "0.0.1",
+    "description": "Nonreactive JS library",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vikkjs/vikk.git"
+    },
+    "keywords": [
+        "javascript",
+        "typescript",
+        "jsx",
+        "tsx",
+        "vikk"
+    ],
+    "author": "eekelof",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vikkjs/vikk/issues"
+    },
+    "homepage": "https://github.com/vikkjs/vikk#readme"
+}
