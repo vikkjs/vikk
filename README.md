@@ -6,7 +6,7 @@
 [![npm](https://img.shields.io/npm/v/vikk)](https://www.npmjs.com/package/vikk)
 [![npm](https://img.shields.io/npm/dm/vikk)](https://www.npmjs.com/package/vikk)
 [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/vikk)](https://www.npmjs.com/package/vikk)
-[![GitHub](https://img.shields.io/github/license/SoloJSX/vikk)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+[![GitHub](https://img.shields.io/github/license/vikkjs/vikk)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 </div>
 
