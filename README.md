@@ -1,7 +1,7 @@
 <div align="center">
+# vikk
   <img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="300" height="144">
 
-# vikk
 ### Nonreactive JS library
 [![npm](https://img.shields.io/npm/v/vikk)](https://www.npmjs.com/package/vikk)
 [![npm](https://img.shields.io/npm/dm/vikk)](https://www.npmjs.com/package/vikk)
