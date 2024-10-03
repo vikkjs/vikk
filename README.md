@@ -1,6 +1,5 @@
 <div align="center">
 <h1>vikk</h1>
-<br>
 <img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="300" height="144">
 
 ### Nonreactive JS library
@@ -11,10 +10,6 @@
 
 </div>
 
-- :sun_with_face: JSX, nothing else
-- :gem: Supports attributes & events
-- :x: No reactivity, vdom or components
-- :zap: Small bundle size (463 B)
 ## Getting Started
 
 ## Usage
