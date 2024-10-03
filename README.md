@@ -14,6 +14,8 @@
 
 ## Usage
 
+## Examples
+
 ## Licence
 MIT
 
