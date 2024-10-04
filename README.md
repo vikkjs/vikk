@@ -1,5 +1,5 @@
 <div align="center">
-<h1>vikk</h1>
+<h1>Vikk</h1>
 <img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="300" height="144">
 
 ### Nonreactive JS library
