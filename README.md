@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Vikk</h1>
-<img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="300" height="144">
+<img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="256" height="144">
 
 ### Nonreactive JS library
 [![npm](https://img.shields.io/npm/v/vikk)](https://www.npmjs.com/package/vikk)
