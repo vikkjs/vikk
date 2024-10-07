@@ -71,11 +71,9 @@ function Component({ state }) {
 function App() {
     const state = { data: "hello" }
     return <div>
-        <h1> App </h1>
         <Component state={state} />
     </div>
 }
-document.body.append(<App />)
 ```
 
 ##### Elements with multiple params
@@ -85,11 +83,9 @@ function Component({ param1, param2 }) {
 }
 function App() {
     return <div>
-        <h1> App </h1>
         <Component param1="hello" param2="world" />
     </div>
 }
-document.body.append(<App />)
 ```
 
 ##### Elements with children
@@ -103,14 +99,12 @@ function Component({ state }, children) {
 function App() {
     const state = { data: "hello" }
     return <div>
-        <h1> App </h1>
         <Component state={state}>
-            <div>child1</div>
-            <div>child2</div>
+            <div> child1 </div>
+            <div> child2 </div>
         </Component>
     </div>
 }
-document.body.append(<App />)
 ```
 
 #### Using function calls
@@ -121,11 +115,9 @@ function Component(state) {
 function App() {
     const state = { data: "hello" }
     return <div>
-        <h1> App </h1>
         {Component(state)}
     </div>
 }
-document.body.append(App())
 ```
 
 ## Examples
