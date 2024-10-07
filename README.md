@@ -67,7 +67,7 @@ const style = { color: "red" }
 const e = <div style={style}> Hello </div>
 ```
 
-## Components
+### Components
 #### Using element
 ```jsx
 function Component({ state }) {
