@@ -12,13 +12,12 @@
 
 ## Getting Started
 ```bash
-npx vikk-app project-name
+npx vikk-app project
 ```
 #### Options
 ```bash
 npx vikk-app # in current folder
 npx vikk-app -js # javascript
-
 bunx vikk-bun # using bun
 ```
 
@@ -72,8 +71,43 @@ function Component({ state }) {
 function App() {
     const state = { data: "hello" }
     return <div>
-        <h1>App</h1>
+        <h1> App </h1>
         <Component state={state} />
+    </div>
+}
+document.body.append(<App />)
+```
+
+#### Elements with multiple params
+```jsx
+function Component({ param1, param2 }) {
+    return <div> {param1} {param2} </div>
+}
+function App() {
+    return <div>
+        <h1> App </h1>
+        <Component param1="hello" param2="world" />
+    </div>
+}
+document.body.append(<App />)
+```
+
+#### Elements with children
+```jsx
+function Component({ state }, children) {
+    return <div>
+        {state.data}
+        {children}
+    </div>
+}
+function App() {
+    const state = { data: "hello" }
+    return <div>
+        <h1> App </h1>
+        <Component state={state}>
+            <div>child1</div>
+            <div>child2</div>
+        </Component>
     </div>
 }
 document.body.append(<App />)
@@ -87,7 +121,7 @@ function Component(state) {
 function App() {
     const state = { data: "hello" }
     return <div>
-        <h1>App</h1>
+        <h1> App </h1>
         {Component(state)}
     </div>
 }
