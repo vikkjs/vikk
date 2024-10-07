@@ -10,6 +10,11 @@
 
 </div>
 
+## Features
+- :rocket: Simple and efficient
+- :zap: Zero dependencies
+- :blue_square: TypeScript first
+
 ## Getting Started
 ```bash
 npx vikk-app project
