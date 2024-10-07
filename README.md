@@ -63,7 +63,7 @@ const e = <div style={style}> Hello </div>
 ```
 
 ## Components
-#### Using elements
+#### Using element
 ```jsx
 function Component({ state }) {
     return <div> {state.data} </div>
@@ -76,7 +76,7 @@ function App() {
 }
 ```
 
-##### Elements with multiple params
+##### Element with multiple params
 ```jsx
 function Component({ param1, param2 }) {
     return <div> {param1} {param2} </div>
@@ -88,7 +88,7 @@ function App() {
 }
 ```
 
-##### Elements with children
+##### Element with children
 ```jsx
 function Component({ state }, children) {
     return <div>
@@ -107,7 +107,7 @@ function App() {
 }
 ```
 
-#### Using function calls
+#### Using function call
 ```jsx
 function Component(state) {
     return <div> {state.data} </div>
