@@ -63,7 +63,7 @@ const e = <div style={style}> Hello </div>
 ```
 
 ## Components
-### Using elements
+#### Using elements
 ```jsx
 function Component({ state }) {
     return <div> {state.data} </div>
@@ -78,7 +78,7 @@ function App() {
 document.body.append(<App />)
 ```
 
-#### Elements with multiple params
+##### Elements with multiple params
 ```jsx
 function Component({ param1, param2 }) {
     return <div> {param1} {param2} </div>
@@ -92,7 +92,7 @@ function App() {
 document.body.append(<App />)
 ```
 
-#### Elements with children
+##### Elements with children
 ```jsx
 function Component({ state }, children) {
     return <div>
@@ -113,7 +113,7 @@ function App() {
 document.body.append(<App />)
 ```
 
-### Using function calls
+#### Using function calls
 ```jsx
 function Component(state) {
     return <div> {state.data} </div>
@@ -129,7 +129,7 @@ document.body.append(App())
 ```
 
 ## Examples
-### Todo list
+#### Todo list
 ```jsx
 function App() {
     const input = <input />
