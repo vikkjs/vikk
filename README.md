@@ -27,7 +27,7 @@ bunx vikk-bun # using bun
 ```
 
 ## Usage
-```jsx  
+```jsx
 function App() {
     return <div> Hello from Vikk </div>
 }
@@ -35,35 +35,41 @@ document.body.append(<App />)
 ```
 
 #### Attributes
-```jsx  
+```jsx
 <div style="color: red"> Hello </div>
 ```
 
 #### Events
-```jsx  
+```jsx
 const f = (text) => alert(text)
+```
+```jsx
 <div onclick={() => f("Hi")}> Click Me </div>
 ```
 
 #### Arrays
-```jsx  
+```jsx
 <div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
 ```
 
 #### Ternaries
-```jsx  
+```jsx
 <div> {true ? <div> Hello </div> : null} </div>
 ```
 
 #### Nested elements
-```jsx  
+```jsx
 const inner = <div> Hello </div>
+```
+```jsx
 <div> {inner} </div>
 ```
 
 #### Style object
-```jsx 
+```jsx
 const style = { color: "red" }
+```
+```jsx
 <div style={style}> Hello </div>
 ```
 
