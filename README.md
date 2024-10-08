@@ -36,35 +36,35 @@ document.body.append(<App />)
 
 #### Attributes
 ```jsx  
-const e = <div style="color: red"> Hello </div>
+<div style="color: red"> Hello </div>
 ```
 
 #### Events
 ```jsx  
 const f = (text) => alert(text)
-const e = <div onclick={() => f("Hi")}> Click Me </div>
+<div onclick={() => f("Hi")}> Click Me </div>
 ```
 
 #### Arrays
 ```jsx  
-const e = <div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
+<div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
 ```
 
 #### Ternaries
 ```jsx  
-const e = <div> {true ? <div> Hello </div> : null} </div>
+<div> {true ? <div> Hello </div> : null} </div>
 ```
 
 #### Nested elements
 ```jsx  
 const inner = <div> Hello </div>
-const e = <div> {inner} </div>
+<div> {inner} </div>
 ```
 
 #### Style object
 ```jsx 
 const style = { color: "red" }
-const e = <div style={style}> Hello </div>
+<div style={style}> Hello </div>
 ```
 
 ### Components
