@@ -79,6 +79,8 @@ const style = { color: "red" }
 function Component({ state }) {
     return <div> {state.data} </div>
 }
+```
+```jsx
 function App() {
     const state = { data: "hello" }
     return <div>
@@ -92,6 +94,8 @@ function App() {
 function Component({ param1, param2 }) {
     return <div> {param1} {param2} </div>
 }
+```
+```jsx
 function App() {
     return <div>
         <Component param1="hello" param2="world" />
@@ -107,6 +111,8 @@ function Component({ state }, children) {
         {children}
     </div>
 }
+```
+```jsx
 function App() {
     const state = { data: "hello" }
     return <div>
@@ -123,6 +129,8 @@ function App() {
 function Component(state) {
     return <div> {state.data} </div>
 }
+```
+```jsx
 function App() {
     const state = { data: "hello" }
     return <div>
