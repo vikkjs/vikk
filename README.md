@@ -3,7 +3,6 @@
 <img src="https://github.com/vikkjs/vikk/blob/main/.github/vikk.png" alt="vikk" width="192" height="192">
 
 ### Nonreactive JS library
-##### :zap: Zero Dependencies :zap:
 [![npm](https://img.shields.io/npm/v/vikk)](https://www.npmjs.com/package/vikk)
 [![npm](https://img.shields.io/npm/dm/vikk)](https://www.npmjs.com/package/vikk)
 [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/vikk)](https://www.npmjs.com/package/vikk)
@@ -70,7 +69,6 @@ const style = { color: "red" }
 ```
 
 ### Components
-#### Using element
 ```jsx
 function Component({ state }) {
     return <div> {state.data} </div>
@@ -136,7 +134,7 @@ function App() {
 ```
 
 ## Examples
-#### Todo list
+#### Simple todo list
 ```jsx
 function App() {
     const input = <input />
@@ -147,6 +145,9 @@ function App() {
 }
 document.body.append(<App />)
 ```
+
+#### Advanced todo list
+- [Vikk-Todo](https://github.com/eekelof/vikk-todo)
 
 ## Licence
 MIT

@@ -1,6 +1,6 @@
 {
     "name": "vikk",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Nonreactive JS library",
     "type": "module",
     "main": "dist/index.js",
